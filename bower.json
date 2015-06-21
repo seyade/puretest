@@ -1,0 +1,22 @@
+{
+  "name": "Pure360 Weather",
+  "version": "1.0.0",
+  "authors": [
+    "juco <julian@juco.co.uk>"
+  ],
+  "description": "Better than Accurweather",
+  "main": "pure360",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "=1.4.1",
+    "angular-route": "=1.4.1",
+    "angular-mocks": "=1.4.1"
+  }
+}

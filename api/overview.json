@@ -1,0 +1,42 @@
+{
+  "location": "Brighton",
+  "days": [
+    {
+      "day": "Monday",
+      "weather": "Rain",
+      "temprature": "8C",
+      "windSpeed": "6 mph"
+    }, {
+      "day": "Teusday",
+      "weather": "Cloudy",
+      "temprature": "10C",
+      "windSpeed": "8 mph"
+    }, {
+      "day": "Wednesday",
+      "weather": "Rain",
+      "temprature": "11C",
+      "windSpeed": "8 mph"
+    }, {
+      "day": "Thursday",
+      "weather": "Snow",
+      "temprature": "-2C",
+      "windSpeed": "9 mph"
+    }, {
+      "day": "Friday",
+      "weather": "Sunshine",
+      "temprature": "15C",
+      "windSpeed": "2 mph"
+    }, {
+      "day": "Saturday",
+      "weather": "Sunshine",
+      "temprature": "16C",
+      "windSpeed": "3 mph"
+    }, {
+      "day": "Sunday",
+      "weather": "Cloud",
+      "temprature": "6C",
+      "windSpeed": "3 mph"
+    }
+  ]
+}
+

@@ -1,0 +1,9 @@
+{
+  "location": 'Brighton',
+  "day": 'Today',
+  "weather": {
+    "weather": "Rain",
+    "temprature": "8C",
+    "windSpeed": "6 mph"
+  }
+}

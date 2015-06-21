@@ -1,0 +1,20 @@
+{
+  "name": "Pure360 Weather",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node_modules/karma/bin/karma start app/spec/unit/karma-options.js",
+    "test-single-run": "node_modules/karma/bin/karma start app/spec/unit/karma-options.js --single-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "karma": "^0.12.16",
+    "karma-jasmine": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
