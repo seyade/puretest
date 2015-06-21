@@ -7,8 +7,10 @@ var port = process.env.port || 3000;
 app.use(express.static(__dirname + '/../app/js'));
 app.use(express.static(__dirname + '/../public'));
 app.use('/js', express.static(__dirname + '/../app/js'));
+app.use('/partial', express.static(__dirname + '/../app/partial'));
 app.use('/vendor', express.static(__dirname + '/../vendor'));
 app.use('/api', express.static(__dirname + '/../api'));
+
 app.get('/', function(req, res, next) {
   utils.sendFile(__dirname + '/../app/layout/index.html', res, next);
 });
@@ -18,4 +20,4 @@ app.use('*', function(req, res, next) {
 });
 
 app.listen(port);
-console.log('Development server started on ' + port + ' ...');
+console.log('Development server started on port ' + port + ' ...');
