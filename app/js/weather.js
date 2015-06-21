@@ -5,9 +5,10 @@ angular.module('pure360.weather', [
 ])
 
   .config(function($routeProvider) {
-    $routeProvider.when('/overview', {
-      controller: 'OverviewCtrl',
-      templateUrl: '/partial/overview/index.html'
-    })
-    .otherwise('/overview');
+    $routeProvider
+      .when('/overview', {
+        controller: 'OverviewCtrl',
+        templateUrl: '/partial/overview/index.html'
+      })
+      .otherwise('/overview');
   });

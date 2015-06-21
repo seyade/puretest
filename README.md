@@ -4,7 +4,7 @@ What's the weather in Brighton? You tell me!
 
 The purpose of this task is to:
 
-* Make a call to /api/overview.json for the weeks weather in Brighton
+* Make a call to `/api/overview.json` for the weeks weather in Brighton
 * Output the weeks weather
 * Allow the user to drill in to a days weather (This can pull back `today.json`)
 * Your code should be covered by Unit tests
