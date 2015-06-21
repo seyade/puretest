@@ -1,6 +1,6 @@
 {
-  "location": 'Brighton',
-  "day": 'Today',
+  "location": "Brighton",
+  "day": "Today",
   "weather": {
     "weather": "Rain",
     "temprature": "8C",

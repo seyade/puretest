@@ -23,3 +23,7 @@ Run all tests with `npm run test-single-run` or watch over the tests with
 `npm test`
 
 Happy coding :dancer
+=======
+# weather-test
+Show me the ... weather
+>>>>>>> bc63486... Initial commit
