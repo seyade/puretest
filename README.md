@@ -9,6 +9,12 @@ The purpose of this task is to:
 * Allow the user to drill in to a days weather (This can pull back `today.json`)
 * Your code should be covered by Unit tests
 
+## Install
+
+You will need [Node](https://nodejs.org/) and `bower` installed:
+
+`npm install -g bower`
+
 ## Run
 
 To start the node server use `npm start` - an optional port can be passed
