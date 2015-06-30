@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pure360 Weather Test
 
 What's the weather in Brighton? You tell me!
@@ -26,3 +27,7 @@ Run all tests with `npm run test-single-run` or watch over the tests with
 `npm test`
 
 Happy coding :dancer:
+=======
+# puretest
+This a pure test
+>>>>>>> f8ad726c291e980ab5073cb572bf22641f1e20b6
