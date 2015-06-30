@@ -1,7 +1,8 @@
 angular.module('pure360.weather', [
   'ngRoute',
 
-  'pure360.weather.controllers'
+  'pure360.weather.controllers',
+  'pure360.weather.services'
 ])
 
   .config(function($routeProvider) {
