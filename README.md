@@ -1,2 +1,2 @@
 # puretest
-A pure test
+This a pure test
